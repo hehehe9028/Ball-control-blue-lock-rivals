@@ -90,7 +90,7 @@ end)
 -- Submit Logic
 submit.MouseButton1Click:Connect(function()
 	local key = input.Text
-	if key == "crazy" then
+	if key == "CRAZYCONTROL" then
 		title.Text = "✅ Thanks for joining the Discord!"
 		hint.Text = "Loading script, please wait..."
 		input.Visible = false
